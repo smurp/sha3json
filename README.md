@@ -37,7 +37,9 @@ console.assert(base64bits512([])==default_hasher([]));
 
 const base58bits224 = sha3json(224, 'base58');
 const base64bits224 = sha3json(224, 'base64');
+// note the absence of punctuation and variable length of base58
 console.log(base58bits224([{}])); // 3EnMbauWHQPCzk4GBVxM1t7CKzqoz5D4TEWpjeD
+// note the padding in base64
 console.log(base64bits224([{}])); // 2Y5XeCeJ/fXGufG5T2XgeBL5GcM8j3c+YLsbng==
 
 ```
