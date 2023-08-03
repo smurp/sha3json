@@ -1,0 +1,34 @@
+{
+  "name": "sha3json",
+  "version": "1.0.0",
+  "description": "generates a sha3 hash of the canonicalized representation of passed JSON",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smurp/sha3json.git"
+  },
+  "keywords": [
+    "sha3",
+    "canonicalize",
+    "json",
+    "hash"
+  ],
+  "author": "Shawn Murphy <smurp@smurp.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smurp/sha3json/issues"
+  },
+  "homepage": "https://github.com/smurp/sha3json#readme",
+  "dependencies": {
+    "bs58": "^5.0.0",
+    "canonicalize": "^2.0.0",
+    "sha3": "^2.1.4"
+  },
+  "devDependencies": {
+    "tap": "^16.3.8"
+  }
+}
